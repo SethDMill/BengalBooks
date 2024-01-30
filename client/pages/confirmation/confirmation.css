@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: purple;
+    font-size: 50;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+button{
+    font-size: 45;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238, 238, 159);
+}

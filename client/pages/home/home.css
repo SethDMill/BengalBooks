@@ -1,0 +1,134 @@
+.logo-container {
+    position: relative;
+    display: inline-block;
+    left: 100px;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p.logo-text
+{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50.1%, -120%); 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 800px;
+    white-space: pre-wrap;
+    /*font-style: oblique;*/
+}
+
+#logo-image{ 
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding:5px; 
+    text-align:center; 
+    border-radius:360px; 
+    width: 30px;
+    height: 30px;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-image: linear-gradient(to top left, rgb(226, 123, 255) , rgb(67, 0, 85));/* Just to visualize the extent */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 25px;
+}
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 16px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.searchBar{
+    text-align: center;
+    margin-left: 160px;
+    padding: 25px;
+}
+
+#bookList {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+div.bookListing {
+    background-color: rgba(230, 230, 250, 0.37);
+    height: 250px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+
+    display: block;
+    position: relative;
+}
+
+.coverImg {
+    width: 200px;
+    float: left;
+}
+
+.listingInfo {
+    float: left;
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+.titleText {
+    margin-left: 20px;
+    font-family: "Arial";
+    font-size: 30px;
+    width: calc(100% - 20px - 20px);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bookDescription {
+    margin-left: 20px;
+    font-family: "Arial";
+    width: calc(100% - 20px - 20px);
+    height: calc(100% - 95px - 50px);
+    font-size: 20px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.showOverview {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+

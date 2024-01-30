@@ -1,0 +1,173 @@
+.logo-container {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p.logo-text
+{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50.1%, -120%); 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 800px;
+    white-space: pre-wrap;
+    text-shadow:
+    -1px -1px 0 #00000000,
+    1.5px -1.5px 0 #ffd500,
+    -2px 2px 0 #480050,
+    1px 1px 0 #00000000;
+    /*font-style: oblique;*/
+}
+
+#logo-image{ 
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding:5px; 
+    text-align:center; 
+    border-radius:360px; 
+    width: 60px;
+    height: 60px;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-image: linear-gradient(to top left, rgb(226, 123, 255) , rgb(67, 0, 85));/* Just to visualize the extent */
+}
+
+h2.heading
+{
+    text-align: center;
+    color: rgb(57, 57, 57);
+    /*font-style: oblique;*/
+}
+
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="username"],
+.login-container input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#loginButton {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#SSOButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #a055b0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+/*h1.heading
+{
+    text-align: center;
+    font-style: oblique;
+    
+}
+div.listing{
+    background-color: lavender;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+}
+div.overview{
+    background-color: lavender;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2px;
+    align-items: center;
+    text-align: left;
+    margin:auto;
+}
+div.review{
+    background-color: lavender;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2px;
+    align-items: center;
+    text-align: left;
+    margin:auto;
+}
+div.order{
+    background-color: lavender;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2px;
+    align-items: center;
+    text-align: left;
+    margin:auto;
+}
+.searchBar{
+    text-align:left;
+    padding:10px;
+}
+.sortBy{
+    float: left;
+    width:70px;
+    padding: 3px;
+    border: 3px solid black;
+}
+button.listingButton
+{
+    float:right;
+    color:black;
+    background-color: red;
+    padding: 5px;
+}
+.profileButton{
+    offset: 10px 10px 10px;
+    padding: 5px;
+}
+body{
+    background-color: beige;
+}*/
+
